@@ -1,0 +1,10 @@
+{
+  "generated_by": "notebooks/part2/P2_06_Observability_Eval_Ops.ipynb (D18)",
+  "runs": 3,
+  "real_failures": 1,
+  "observed_by_callback": 0,
+  "reported_manually": 1,
+  "dashboard_error_rate": 0.0,
+  "true_error_rate": 0.3333333333333333,
+  "note": "예외를 잡아 상태에 담으면 콜백은 chain_ERROR 를 받지 못한다. 관측 도구의 에러율은 0% 로 남고, 진짜 실패는 우리가 따로 세야 보인다."
+}

@@ -1,0 +1,14 @@
+{
+  "generated_by": "notebooks/part2/P2_04_Branch_Loop_Parallel.ipynb (D13)",
+  "model": "gpt-4.1-mini",
+  "sample_size": 12,
+  "rule_router": {
+    "hits": 8,
+    "accuracy": 0.6667
+  },
+  "llm_router": {
+    "hits": 11,
+    "accuracy": 0.9167
+  },
+  "note": "temperature=0 이어도 재실행마다 갈린다. 1회 측정으로 라우터를 비교하지 말 것."
+}

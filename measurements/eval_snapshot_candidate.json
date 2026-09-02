@@ -1,0 +1,328 @@
+{
+  "schema": "corp-agent-eval-snapshot/1",
+  "git_sha": "2b6f3c4",
+  "evalset_sha256": "cdb882094b9e46a6",
+  "model": "gpt-4.1-mini",
+  "variant": "terse",
+  "subset": null,
+  "n_cases": 30,
+  "summary": {
+    "route": {
+      "measured": 20,
+      "passed": 16,
+      "score": 0.8
+    },
+    "facts": {
+      "measured": 6,
+      "passed": 6,
+      "score": 1.0
+    },
+    "refusal": {
+      "measured": 4,
+      "passed": 4,
+      "score": 1.0
+    }
+  },
+  "rows": [
+    {
+      "case_id": "route-001",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-002",
+      "kind": "route",
+      "answer": "normal",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-004",
+      "kind": "route",
+      "answer": "low",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-005",
+      "kind": "route",
+      "answer": "normal",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-008",
+      "kind": "route",
+      "answer": "low",
+      "scores": {
+        "route": false,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-009",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-010",
+      "kind": "route",
+      "answer": "low",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-011",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-013",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": false,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-014",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-020",
+      "kind": "route",
+      "answer": "low",
+      "scores": {
+        "route": false,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-022",
+      "kind": "route",
+      "answer": "low",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-024",
+      "kind": "route",
+      "answer": "normal",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-026",
+      "kind": "route",
+      "answer": "low",
+      "scores": {
+        "route": false,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-030",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-031",
+      "kind": "route",
+      "answer": "low",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-032",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-035",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-036",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "route-040",
+      "kind": "route",
+      "answer": "urgent",
+      "scores": {
+        "route": true,
+        "facts": null,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "extract-005",
+      "kind": "extract",
+      "answer": "출장 경비 정산의 총 금액은 440,000원입니다.",
+      "scores": {
+        "route": null,
+        "facts": true,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "extract-015",
+      "kind": "extract",
+      "answer": "187점입니다.",
+      "scores": {
+        "route": null,
+        "facts": true,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "extract-017",
+      "kind": "extract",
+      "answer": "Q1 총 매출은 92억원이고, 고객 이탈률은 3.2%입니다.",
+      "scores": {
+        "route": null,
+        "facts": true,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "extract-023",
+      "kind": "extract",
+      "answer": "구매 요청한 라이선스 수량은 5개이며, 예상 비용은 $2,995 (약 400만원)입니다.",
+      "scores": {
+        "route": null,
+        "facts": true,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "extract-026",
+      "kind": "extract",
+      "answer": "배포한 버전은 v3.0.5이고, 배포 후 에러율은 0.01%입니다.",
+      "scores": {
+        "route": null,
+        "facts": true,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "extract-036",
+      "kind": "extract",
+      "answer": "중복 결제된 금액은 180만원입니다.",
+      "scores": {
+        "route": null,
+        "facts": true,
+        "refusal": null
+      }
+    },
+    {
+      "case_id": "trap-026",
+      "kind": "trap",
+      "answer": "모르겠습니다",
+      "scores": {
+        "route": null,
+        "facts": null,
+        "refusal": true
+      }
+    },
+    {
+      "case_id": "trap-010",
+      "kind": "trap",
+      "answer": "모르겠습니다",
+      "scores": {
+        "route": null,
+        "facts": null,
+        "refusal": true
+      }
+    },
+    {
+      "case_id": "trap-004",
+      "kind": "trap",
+      "answer": "모르겠습니다",
+      "scores": {
+        "route": null,
+        "facts": null,
+        "refusal": true
+      }
+    },
+    {
+      "case_id": "trap-008",
+      "kind": "trap",
+      "answer": "모르겠습니다",
+      "scores": {
+        "route": null,
+        "facts": null,
+        "refusal": true
+      }
+    }
+  ]
+}

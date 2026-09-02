@@ -1,0 +1,23 @@
+{
+  "generated_by": "notebooks/part2/P2_04_Branch_Loop_Parallel.ipynb (D15)",
+  "model": "gpt-4.1-mini",
+  "n_docs": 6,
+  "doc_chars_per_item": 1500,
+  "sequential": {
+    "wall_sec": 12.344,
+    "input_tokens": 4784,
+    "output_tokens": 536,
+    "llm_calls": 6
+  },
+  "parallel": {
+    "wall_sec": 3.154,
+    "input_tokens": 4784,
+    "output_tokens": 508,
+    "llm_calls": 6,
+    "max_concurrency": 6
+  },
+  "speedup": 3.91,
+  "input_token_delta": 0,
+  "output_token_delta": -28,
+  "claim": "병렬은 지연시간만 줄인다. 호출 횟수와 입력 토큰은 동일하다. 출력 토큰은 생성 변동으로 달라질 수 있으나 병렬 때문에 줄어드는 것이 아니다."
+}

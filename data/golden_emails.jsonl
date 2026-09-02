@@ -1,0 +1,30 @@
+{"case_id": "route-001", "kind": "route", "email_id": 1, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-002", "kind": "route", "email_id": 2, "question": "이 메일의 처리 우선순위는?", "expected": "normal", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-004", "kind": "route", "email_id": 4, "question": "이 메일의 처리 우선순위는?", "expected": "low", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-005", "kind": "route", "email_id": 5, "question": "이 메일의 처리 우선순위는?", "expected": "normal", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-008", "kind": "route", "email_id": 8, "question": "이 메일의 처리 우선순위는?", "expected": "normal", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-009", "kind": "route", "email_id": 9, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-010", "kind": "route", "email_id": 10, "question": "이 메일의 처리 우선순위는?", "expected": "low", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-011", "kind": "route", "email_id": 11, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-013", "kind": "route", "email_id": 13, "question": "이 메일의 처리 우선순위는?", "expected": "normal", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-014", "kind": "route", "email_id": 14, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-020", "kind": "route", "email_id": 20, "question": "이 메일의 처리 우선순위는?", "expected": "normal", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-022", "kind": "route", "email_id": 22, "question": "이 메일의 처리 우선순위는?", "expected": "low", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-024", "kind": "route", "email_id": 24, "question": "이 메일의 처리 우선순위는?", "expected": "normal", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-026", "kind": "route", "email_id": 26, "question": "이 메일의 처리 우선순위는?", "expected": "normal", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-030", "kind": "route", "email_id": 30, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-031", "kind": "route", "email_id": 31, "question": "이 메일의 처리 우선순위는?", "expected": "low", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-032", "kind": "route", "email_id": 32, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-035", "kind": "route", "email_id": 35, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-036", "kind": "route", "email_id": 36, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "route-040", "kind": "route", "email_id": 40, "question": "이 메일의 처리 우선순위는?", "expected": "urgent", "required_keys": null, "answer_facts": null, "source": "sample_emails.json 의 priority 라벨"}
+{"case_id": "extract-005", "kind": "extract", "email_id": 5, "question": "출장 경비 정산의 총 금액은?", "expected": null, "required_keys": null, "answer_facts": ["440,000"], "source": "본문에 문자열로 존재함(생성 시 assert 로 확인)"}
+{"case_id": "extract-015", "kind": "extract", "email_id": 15, "question": "1월에 완료한 스토리 포인트는?", "expected": null, "required_keys": null, "answer_facts": ["187"], "source": "본문에 문자열로 존재함(생성 시 assert 로 확인)"}
+{"case_id": "extract-017", "kind": "extract", "email_id": 17, "question": "Q1 총 매출과 고객 이탈률은?", "expected": null, "required_keys": null, "answer_facts": ["92억", "3.2%"], "source": "본문에 문자열로 존재함(생성 시 assert 로 확인)"}
+{"case_id": "extract-023", "kind": "extract", "email_id": 23, "question": "구매 요청한 라이선스 수량과 예상 비용은?", "expected": null, "required_keys": null, "answer_facts": ["5", "2,995"], "source": "본문에 문자열로 존재함(생성 시 assert 로 확인)"}
+{"case_id": "extract-026", "kind": "extract", "email_id": 26, "question": "배포한 버전과 배포 후 에러율은?", "expected": null, "required_keys": null, "answer_facts": ["v3.0.5", "0.01%"], "source": "본문에 문자열로 존재함(생성 시 assert 로 확인)"}
+{"case_id": "extract-036", "kind": "extract", "email_id": 36, "question": "중복 결제된 금액은?", "expected": null, "required_keys": null, "answer_facts": ["180만원"], "source": "본문에 문자열로 존재함(생성 시 assert 로 확인)"}
+{"case_id": "trap-026", "kind": "trap", "email_id": 26, "question": "이 배포로 발생한 매출 증가액은 얼마인가?", "expected": null, "required_keys": null, "answer_facts": null, "source": "본문에 근거 없음(생성 시 assert 로 확인). 정답은 '모른다'다."}
+{"case_id": "trap-010", "kind": "trap", "email_id": 10, "question": "이 투표에 참여한 인원의 부서별 분포는?", "expected": null, "required_keys": null, "answer_facts": null, "source": "본문에 근거 없음(생성 시 assert 로 확인). 정답은 '모른다'다."}
+{"case_id": "trap-004", "kind": "trap", "email_id": 4, "question": "신규 입사자의 연봉은 얼마인가?", "expected": null, "required_keys": null, "answer_facts": null, "source": "본문에 근거 없음(생성 시 assert 로 확인). 정답은 '모른다'다."}
+{"case_id": "trap-008", "kind": "trap", "email_id": 8, "question": "이 회의에 배정된 예산은 얼마인가?", "expected": null, "required_keys": null, "answer_facts": null, "source": "본문에 근거 없음(생성 시 assert 로 확인). 정답은 '모른다'다."}

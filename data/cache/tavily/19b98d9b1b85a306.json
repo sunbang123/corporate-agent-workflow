@@ -1,0 +1,13 @@
+{
+  "query": "Microsoft 365 서비스 장애 현황",
+  "source": "live",
+  "captured_at": "2026-08-01",
+  "note": "교육용 고정 스냅샷 — 실제 웹 검색 결과가 아니라 수업 재현성을 위해 손으로 만든 샘플입니다.",
+  "results": [
+    {
+      "title": "[교육용 샘플] Microsoft 365 서비스 상태 스냅샷",
+      "url": "https://example.com/status/m365",
+      "content": "이 스냅샷 시점에는 Exchange Online 메일 전송 지연이 일부 지역에서 보고되었고, Teams 는 정상으로 표시되었습니다."
+    }
+  ]
+}

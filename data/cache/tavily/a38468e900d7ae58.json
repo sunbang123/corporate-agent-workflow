@@ -1,0 +1,18 @@
+{
+  "query": "OpenSSL 최신 보안 취약점",
+  "source": "live",
+  "captured_at": "2026-08-01",
+  "note": "교육용 고정 스냅샷 — 실제 웹 검색 결과가 아니라 수업 재현성을 위해 손으로 만든 샘플입니다.",
+  "results": [
+    {
+      "title": "[교육용 샘플] OpenSSL 보안 권고 요약",
+      "url": "https://example.com/sec/openssl-advisory",
+      "content": "최근 공개된 OpenSSL 권고는 인증서 체인 검증 경로의 메모리 처리 문제를 다룹니다. 영향 등급은 중간이며 패치 버전으로의 업그레이드가 권장됩니다."
+    },
+    {
+      "title": "[교육용 샘플] 사내 서버 패치 우선순위 가이드",
+      "url": "https://example.com/sec/patch-priority",
+      "content": "외부에 노출된 리버스 프록시부터 패치하고, 내부 전용 서비스는 정기 점검 창에서 처리하는 순서를 권장합니다."
+    }
+  ]
+}

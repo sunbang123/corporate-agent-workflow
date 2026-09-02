@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "[긴급] 프로덕션 서버 장애 발생",
+    "from": "ops-alert@company.com",
+    "to": "dev-team@company.com",
+    "date": "2024-01-20T09:15:00",
+    "body": "프로덕션 서버에서 장애가 발생했습니다.\n\n- 발생 시간: 2024-01-20 09:10\n- 영향 범위: 전체 사용자\n- 증상: API 응답 지연 (평균 30초 이상)\n- 원인 추정: DB 커넥션 풀 고갈\n\n즉시 대응 부탁드립니다.\n\n긴급 연락처: 010-1234-5678",
+    "priority": "urgent",
+    "category": "incident"
+  },
+  {
+    "id": 2,
+    "subject": "주간 업무 보고서 제출 요청",
+    "from": "manager@company.com",
+    "to": "team@company.com",
+    "date": "2024-01-19T14:00:00",
+    "body": "안녕하세요, 팀원 여러분.\n\n이번 주 금요일(1/19)까지 주간 업무 보고서를 제출해 주세요.\n\n보고서 양식은 첨부파일을 참고해 주시고,\n다음 내용을 포함해 주세요:\n\n1. 이번 주 완료 업무\n2. 다음 주 계획\n3. 이슈 및 지원 요청 사항\n\n감사합니다.",
+    "priority": "normal",
+    "category": "report"
+  },
+  {
+    "id": 3,
+    "subject": "Re: 프로젝트 일정 조율 건",
+    "from": "partner@external.com",
+    "to": "pm@company.com",
+    "date": "2024-01-18T16:30:00",
+    "body": "김철수 PM님께,\n\n보내주신 일정표 검토했습니다.\n\n2월 말 마일스톤은 현실적으로 어려울 것 같습니다.\n다음 사항을 고려해 주시면 감사하겠습니다:\n\n1. API 연동 일정을 2주 연장\n2. 중간 점검 미팅 추가 (2월 15일 제안)\n\n조율 가능하신지 회신 부탁드립니다.\n\n감사합니다.\n외부파트너 드림",
+    "priority": "normal",
+    "category": "scheduling"
+  },
+  {
+    "id": 4,
+    "subject": "신규 입사자 온보딩 안내",
+    "from": "hr@company.com",
+    "to": "all@company.com",
+    "date": "2024-01-22T09:00:00",
+    "body": "안녕하세요, 인사팀입니다.\n\n1월 22일(월) 신규 입사자를 소개합니다.\n\n- 이름: 홍길동\n- 부서: 개발팀\n- 직책: 시니어 개발자\n- 담당: 백엔드 개발\n\n많은 환영 부탁드립니다.\n\n온보딩 일정:\n- 09:00 HR 오리엔테이션\n- 11:00 팀 소개\n- 14:00 시스템 세팅\n\n감사합니다.",
+    "priority": "low",
+    "category": "announcement"
+  },
+  {
+    "id": 5,
+    "subject": "[승인요청] 출장 경비 정산",
+    "from": "employee@company.com",
+    "to": "finance@company.com",
+    "date": "2024-01-17T11:20:00",
+    "body": "재무팀 담당자님께,\n\n1월 10-12일 부산 출장 경비 정산 요청드립니다.\n\n- 교통비: 150,000원 (KTX 왕복)\n- 숙박비: 200,000원 (2박)\n- 식비: 60,000원\n- 기타: 30,000원 (택시비)\n\n총 금액: 440,000원\n\n영수증은 첨부파일로 제출합니다.\n승인 부탁드립니다.\n\n감사합니다.",
+    "priority": "normal",
+    "category": "approval"
+  },
+  {
+    "id": 6,
+    "subject": "보안 패치 적용 완료 안내",
+    "from": "security@company.com",
+    "to": "all@company.com",
+    "date": "2024-01-21T07:00:00",
+    "body": "안녕하세요, 보안팀입니다.\n\n금일 새벽 보안 패치가 적용되었습니다.\n\n적용 내용:\n- CVE-2024-0001 취약점 패치\n- SSL 인증서 갱신\n- 방화벽 규칙 업데이트\n\n영향 범위:\n- 전 시스템 (약 10분간 접속 불가)\n\n이상 현상 발생 시 보안팀으로 연락 바랍니다.\n\n감사합니다.",
+    "priority": "normal",
+    "category": "notification"
+  },
+  {
+    "id": 7,
+    "subject": "[문의] 제품 기능 관련 질문",
+    "from": "customer@gmail.com",
+    "to": "support@company.com",
+    "date": "2024-01-19T10:45:00",
+    "body": "안녕하세요,\n\nSmartWork Pro 사용 중 문의드립니다.\n\n1. 파일 공유 시 용량 제한이 어떻게 되나요?\n2. 외부 사용자 초대가 가능한가요?\n3. 모바일 앱에서도 화상회의가 되나요?\n\n답변 부탁드립니다.\n\n감사합니다.\n고객 드림",
+    "priority": "normal",
+    "category": "inquiry"
+  },
+  {
+    "id": 8,
+    "subject": "[알림] 오늘 오후 전체 회의 일정",
+    "from": "admin@company.com",
+    "to": "all@company.com",
+    "date": "2024-01-22T08:00:00",
+    "body": "전 직원 여러분께,\n\n오늘 오후 4시 전체 회의가 예정되어 있습니다.\n\n- 일시: 2024년 1월 22일 16:00\n- 장소: 대강당\n- 안건: 2024년 사업 계획 발표\n\n필참 부탁드립니다.\n온라인 참석자는 Zoom 링크를 확인해 주세요.\n\n감사합니다.",
+    "priority": "normal",
+    "category": "meeting"
+  },
+  {
+    "id": 9,
+    "subject": "[긴급] 비밀번호 재설정 필요",
+    "from": "security@company.com",
+    "to": "user@company.com",
+    "date": "2024-01-20T14:00:00",
+    "body": "보안 알림\n\n귀하의 계정에서 비정상적인 로그인 시도가 감지되었습니다.\n\n- 시도 시간: 2024-01-20 13:45\n- 위치: 해외 IP (xxx.xxx.xxx.xxx)\n- 시도 횟수: 5회\n\n보안을 위해 즉시 비밀번호를 변경해 주세요.\n\n비밀번호 변경 링크: [보안 링크]\n\n본인이 아닌 경우 보안팀에 즉시 연락 바랍니다.\n긴급 연락처: 내선 1234",
+    "priority": "urgent",
+    "category": "security"
+  },
+  {
+    "id": 10,
+    "subject": "점심 메뉴 투표 결과",
+    "from": "team-social@company.com",
+    "to": "dev-team@company.com",
+    "date": "2024-01-19T12:00:00",
+    "body": "안녕하세요, 팀 여러분!\n\n오늘 점심 메뉴 투표 결과입니다:\n\n1위: 삼겹살 (8표)\n2위: 짜장면 (5표)\n3위: 김치찌개 (3표)\n\n12:30에 로비에서 출발합니다.\n\n참석 못하시는 분은 미리 말씀해 주세요~",
+    "priority": "low",
+    "category": "social"
+  },
+  {
+    "id": 11,
+    "subject": "[장애] 데이터베이스 연결 오류 발생",
+    "from": "monitoring@company.com",
+    "to": "dba-team@company.com",
+    "date": "2024-01-23T03:45:00",
+    "body": "자동 모니터링 알림입니다.\n\n[장애 감지]\n- 발생 시간: 2024-01-23 03:42:15\n- 영향 서비스: 결제 서비스, 주문 서비스\n- 오류 코드: ORA-12541: TNS:no listener\n- 현재 상태: Active\n\n자동 복구 시도 중입니다.\n담당자 확인 바랍니다.\n\n[모니터링 시스템]",
+    "priority": "urgent",
+    "category": "incident"
+  },
+  {
+    "id": 12,
+    "subject": "[장애] 네트워크 스위치 장애 - 3층 전체 영향",
+    "from": "network-ops@company.com",
+    "to": "it-support@company.com",
+    "date": "2024-01-24T10:15:00",
+    "body": "네트워크 장애 발생 안내\n\n- 발생 시간: 2024-01-24 10:10\n- 영향 범위: 본사 3층 전체 (개발팀, QA팀)\n- 증상: 네트워크 연결 불가\n- 원인: 코어 스위치 포트 장애 추정\n\n현재 네트워크팀에서 현장 점검 중입니다.\n복구 예상 시간: 약 1시간\n\n3층 직원분들은 임시로 2층 회의실을 이용해 주세요.",
+    "priority": "urgent",
+    "category": "incident"
+  },
+  {
+    "id": 13,
+    "subject": "[장애복구] 결제 서비스 장애 복구 완료",
+    "from": "ops-team@company.com",
+    "to": "all-dev@company.com",
+    "date": "2024-01-25T16:30:00",
+    "body": "장애 복구 안내\n\n[복구 완료]\n- 장애 발생: 2024-01-25 14:20\n- 복구 완료: 2024-01-25 16:25\n- 총 장애 시간: 2시간 5분\n\n[원인]\n- PG사 연동 서버 타임아웃 (PG사측 네트워크 이슈)\n\n[조치 내용]\n- PG사 백업 서버로 전환\n- 재시도 로직 개선 적용\n\n[영향]\n- 실패 결제 건: 127건\n- 전액 자동 환불 처리 완료\n\n포스트모템 회의는 내일 10시에 진행합니다.",
+    "priority": "normal",
+    "category": "incident"
+  },
+  {
+    "id": 14,
+    "subject": "[긴급] 랜섬웨어 의심 파일 발견 - 즉시 대응 필요",
+    "from": "security-alert@company.com",
+    "to": "security-team@company.com",
+    "date": "2024-01-26T11:00:00",
+    "body": "보안 위협 감지\n\n[위험도: Critical]\n\n감지 내용:\n- 감지 시간: 2024-01-26 10:55\n- 감지 위치: 마케팅팀 공유폴더\n- 파일명: invoice_2024.exe\n- 위협 유형: Ransomware (Lockbit 변종 추정)\n\n긴급 조치 필요:\n1. 해당 폴더 즉시 격리\n2. 마케팅팀 전원 네트워크 차단\n3. 백업 시스템 무결성 확인\n\n전 직원 주의 공지가 필요합니다.",
+    "priority": "urgent",
+    "category": "security"
+  },
+  {
+    "id": 15,
+    "subject": "월간 보고서 - 2024년 1월 개발팀",
+    "from": "tech-lead@company.com",
+    "to": "cto@company.com",
+    "date": "2024-01-31T17:00:00",
+    "body": "CTO님께,\n\n2024년 1월 개발팀 월간 보고서입니다.\n\n[성과 요약]\n- 완료 스토리 포인트: 187점 (목표 대비 112%)\n- 릴리즈 횟수: 8회\n- 버그 수정: 34건\n- 기술 부채 해소: 15건\n\n[주요 성과]\n1. SmartWork 3.0 정식 출시\n2. API 응답 속도 40% 개선\n3. 테스트 커버리지 78% 달성\n\n[이슈]\n- 신규 입사자 온보딩 지연 (장비 수급 문제)\n- QA 환경 불안정 (인프라팀 협의 중)\n\n상세 내용은 첨부 파일 참고 부탁드립니다.\n\n감사합니다.",
+    "priority": "normal",
+    "category": "report"
+  },
+  {
+    "id": 16,
+    "subject": "프로젝트 진행 상황 보고 - SmartWork 3.1",
+    "from": "pm@company.com",
+    "to": "stakeholders@company.com",
+    "date": "2024-02-05T15:00:00",
+    "body": "이해관계자 여러분께,\n\nSmartWork 3.1 프로젝트 진행 상황을 보고드립니다.\n\n[일정]\n- 현재 단계: 개발 Phase 2\n- 진행률: 65%\n- 예정 완료일: 2024년 3월 15일\n\n[주요 기능 개발 현황]\n1. 오프라인 모드: 80% 완료\n2. 대용량 파일 처리: 60% 완료\n3. Salesforce 연동: 40% 완료\n\n[리스크]\n- 오프라인 동기화 충돌 해결 로직 복잡도 증가\n- 추가 2주 일정 소요 가능성\n\n다음 주 목요일에 데모 세션 예정입니다.",
+    "priority": "normal",
+    "category": "report"
+  },
+  {
+    "id": 17,
+    "subject": "Q1 매출 분석 보고서 검토 요청",
+    "from": "finance-analyst@company.com",
+    "to": "finance-manager@company.com",
+    "date": "2024-04-02T09:30:00",
+    "body": "팀장님께,\n\n2024년 Q1 매출 분석 보고서 초안을 작성했습니다.\n\n[주요 지표]\n- 총 매출: 92억원 (전년 동기 대비 +23%)\n- MRR: 7.8억원\n- 신규 계약: 21건\n- 고객 이탈률: 3.2%\n\n[분석 포인트]\n1. 엔터프라이즈 시장 성장 가속화\n2. SMB 시장 침투율 정체\n3. 해외 매출 비중 증가 (8% → 12%)\n\n검토 후 피드백 부탁드립니다.\n내일 오전까지 수정 가능합니다.",
+    "priority": "normal",
+    "category": "report"
+  },
+  {
+    "id": 18,
+    "subject": "Re: 긴급회의 일정 조율",
+    "from": "team-lead@company.com",
+    "to": "pm@company.com",
+    "date": "2024-02-10T11:30:00",
+    "body": "PM님,\n\n긴급 회의 일정 확인했습니다.\n\n제안해주신 시간 중 목요일 오후 3시가 가장 적합합니다.\n\n참석 가능 인원:\n- 이영희 (테크리드) - O\n- 박민수 (백엔드) - O\n- 김지훈 (프론트엔드) - △ (15:30부터 가능)\n- 최수진 (QA) - O\n\n회의실은 B-301 예약 부탁드립니다.\n아젠다 미리 공유해주시면 감사하겠습니다.\n\n감사합니다.",
+    "priority": "normal",
+    "category": "scheduling"
+  },
+  {
+    "id": 19,
+    "subject": "휴가 중 업무 대행자 지정 요청",
+    "from": "hr-system@company.com",
+    "to": "employee@company.com",
+    "date": "2024-02-12T10:00:00",
+    "body": "휴가 신청 관련 안내\n\n신청하신 휴가(2024.02.19 ~ 2024.02.23)가 승인되었습니다.\n\n다음 사항을 완료해 주세요:\n\n1. 업무 대행자 지정\n   - HR Portal에서 대행자 선택\n   - 인수인계 문서 작성\n\n2. 긴급 연락처 등록\n   - 휴가 중 긴급 시 연락 가능한 번호\n\n3. 자동 응답 설정\n   - 이메일 부재중 자동응답 설정\n\n완료 기한: 2024.02.16 (금)\n\n즐거운 휴가 되세요!",
+    "priority": "normal",
+    "category": "scheduling"
+  },
+  {
+    "id": 20,
+    "subject": "[공지] 2024년 조직 개편 안내",
+    "from": "ceo@company.com",
+    "to": "all@company.com",
+    "date": "2024-03-01T09:00:00",
+    "body": "전 임직원 여러분께,\n\n2024년 3월 1일자로 조직 개편을 실시합니다.\n\n[주요 변경 사항]\n\n1. AI Lab 신설\n   - 신설 목적: AI 기술 R&D 집중\n   - 규모: 초기 5명 → 연말 15명\n   - 조직장: 이영희 (전 개발팀 테크리드)\n\n2. 고객성공팀 확대\n   - 기존 5명 → 10명\n   - 엔터프라이즈 전담 조직 신설\n\n3. 해외사업팀 신설\n   - 일본/동남아 시장 진출 담당\n\n조직도 및 상세 내용은 첨부파일을 참고해 주세요.\n새로운 시작을 함께 응원합니다.\n\nCEO 드림",
+    "priority": "normal",
+    "category": "announcement"
+  },
+  {
+    "id": 21,
+    "subject": "[공지] 사무실 이전 안내 (4월 예정)",
+    "from": "admin@company.com",
+    "to": "all@company.com",
+    "date": "2024-03-15T10:00:00",
+    "body": "전 직원 여러분께,\n\n2024년 4월 사무실 이전을 안내드립니다.\n\n[이전 일정]\n- 이전일: 2024년 4월 6일 (토)\n- 신규 출근일: 2024년 4월 8일 (월)\n\n[새 사무실]\n- 주소: 서울시 강남구 테헤란로 123, ABC빌딩 15-17층\n- 지하철: 2호선 강남역 3번 출구 도보 5분\n\n[개인 준비 사항]\n1. 개인 짐 박스 포장 (4/3까지)\n2. PC 데이터 백업 (4/5까지)\n3. 보안카드 반납 (이전 당일)\n\n[변경 사항]\n- 주차 공간 확대 (50대 → 80대)\n- 카페테리아 신설\n- 피트니스 센터 제휴\n\n문의: 총무팀 (내선 9010)",
+    "priority": "normal",
+    "category": "announcement"
+  },
+  {
+    "id": 22,
+    "subject": "[공지] 재택근무 정책 변경 안내",
+    "from": "hr@company.com",
+    "to": "all@company.com",
+    "date": "2024-03-20T09:00:00",
+    "body": "인사팀 공지\n\n2024년 4월부터 재택근무 정책이 변경됩니다.\n\n[변경 내용]\n\n기존: 주 2회 재택 가능\n변경: 주 3회 재택 가능 (팀장 승인 하)\n\n[추가 사항]\n1. 코어타임 유지: 10:00 ~ 16:00\n2. 재택근무 신청: 최소 1일 전\n3. 긴급 출근 요청 시 협조 필요\n\n[사유]\n- 직원 만족도 조사 결과 반영\n- 업무 효율성 분석 결과 긍정적\n\n상세 가이드는 HR Portal에서 확인하세요.",
+    "priority": "low",
+    "category": "announcement"
+  },
+  {
+    "id": 23,
+    "subject": "[승인요청] 소프트웨어 구매 - JetBrains 라이선스",
+    "from": "developer@company.com",
+    "to": "it-procurement@company.com",
+    "date": "2024-02-08T14:00:00",
+    "body": "IT 구매팀 담당자님께,\n\n소프트웨어 구매 요청드립니다.\n\n[요청 내용]\n- 품목: JetBrains All Products Pack\n- 수량: 5 라이선스 (신규 입사자용)\n- 기간: 1년\n- 예상 비용: $2,995 (약 400만원)\n\n[사유]\n- 3월 입사 예정 개발자 5명 IDE 필요\n- 기존 라이선스 여유분 없음\n\n[긴급도]\n- 3월 1일까지 설치 필요\n\n견적서 첨부합니다.\n승인 부탁드립니다.",
+    "priority": "normal",
+    "category": "approval"
+  },
+  {
+    "id": 24,
+    "subject": "[승인요청] 연차 사용 - 김철수",
+    "from": "kimcs@company.com",
+    "to": "manager@company.com",
+    "date": "2024-02-15T09:00:00",
+    "body": "팀장님께,\n\n연차 휴가 사용을 요청드립니다.\n\n[휴가 일정]\n- 기간: 2024년 2월 26일 (월) ~ 2월 28일 (수)\n- 일수: 3일\n\n[사유]\n- 개인 사유 (가족 행사)\n\n[업무 인수인계]\n- 담당 프로젝트: 박민수 대리에게 인계\n- 긴급 연락처: 010-1234-5678\n\n잔여 연차: 12일\n\n승인 부탁드립니다.\n감사합니다.",
+    "priority": "normal",
+    "category": "approval"
+  },
+  {
+    "id": 25,
+    "subject": "[승인요청] 외부 교육 참가 - AWS Summit Seoul 2024",
+    "from": "engineer@company.com",
+    "to": "team-lead@company.com",
+    "date": "2024-03-10T10:00:00",
+    "body": "팀장님께,\n\n외부 교육 참가 승인을 요청드립니다.\n\n[교육 정보]\n- 행사명: AWS Summit Seoul 2024\n- 일시: 2024년 4월 16일 (화)\n- 장소: 코엑스 그랜드볼룸\n- 참가비: 무료\n\n[참가 목적]\n1. AWS 신규 서비스 트렌드 파악\n2. 클라우드 아키텍처 베스트 프랙티스 학습\n3. 네트워킹 기회\n\n[세션 계획]\n- 10:00 키노트\n- 14:00 Serverless 아키텍처 심화\n- 16:00 보안 베스트 프랙티스\n\n참가 후 팀 내 공유 세션 진행하겠습니다.\n승인 부탁드립니다.",
+    "priority": "normal",
+    "category": "approval"
+  },
+  {
+    "id": 26,
+    "subject": "배포 완료 알림 - v3.0.5",
+    "from": "ci-cd@company.com",
+    "to": "dev-team@company.com",
+    "date": "2024-02-20T22:30:00",
+    "body": "배포 완료 알림\n\n[배포 정보]\n- 버전: v3.0.5\n- 환경: Production\n- 배포 시간: 2024-02-20 22:25:03\n- 배포자: 장현우\n\n[변경 사항]\n- #287 사용자 인증 모듈 리팩토링\n- #291 결제 API 성능 최적화\n- #295 버그 수정: 파일 업로드 오류\n\n[상태]\n- 헬스체크: 정상\n- 에러율: 0.01% (정상 범위)\n- 응답시간: 평균 120ms\n\n이상 발생 시 Slack #incidents 채널로 보고 바랍니다.",
+    "priority": "normal",
+    "category": "notification"
+  },
+  {
+    "id": 27,
+    "subject": "시스템 정기 점검 예정 안내",
+    "from": "infra@company.com",
+    "to": "all@company.com",
+    "date": "2024-03-05T14:00:00",
+    "body": "시스템 정기 점검 안내\n\n아래와 같이 시스템 정기 점검이 예정되어 있습니다.\n\n[점검 일시]\n- 일시: 2024년 3월 10일 (일) 02:00 ~ 06:00 (4시간)\n\n[점검 대상]\n- 전 시스템 (웹, 모바일, API)\n\n[점검 내용]\n1. 데이터베이스 업그레이드 (PostgreSQL 15 → 16)\n2. 보안 패치 적용\n3. 스토리지 증설\n\n[영향]\n- 점검 시간 동안 서비스 이용 불가\n- 자동 저장 데이터는 점검 후 복구됨\n\n고객 공지는 별도 진행 예정입니다.\n문의: 인프라팀 (내선 9005)",
+    "priority": "normal",
+    "category": "notification"
+  },
+  {
+    "id": 28,
+    "subject": "기술 지원 요청 - API 연동 오류",
+    "from": "partner-dev@external.com",
+    "to": "api-support@company.com",
+    "date": "2024-02-18T16:00:00",
+    "body": "기술 지원팀 담당자님께,\n\nAPI 연동 중 오류가 발생하여 문의드립니다.\n\n[환경]\n- API 버전: v2.1\n- 클라이언트: Python 3.9\n- 라이브러리: requests 2.28.0\n\n[오류 내용]\n- 엔드포인트: POST /api/v2/orders\n- 응답 코드: 400 Bad Request\n- 에러 메시지: \"Invalid product_id format\"\n\n[재현 방법]\n```\ncurl -X POST https://api.company.com/v2/orders \\\n  -H \"Authorization: Bearer xxx\" \\\n  -d '{\"product_id\": \"PROD-001\", \"quantity\": 1}'\n```\n\n문서에는 product_id가 문자열이라고 되어있는데,\n숫자만 허용되는 것 같습니다.\n\n확인 부탁드립니다.",
+    "priority": "normal",
+    "category": "inquiry"
+  },
+  {
+    "id": 29,
+    "subject": "제품 데모 요청 - ABC 주식회사",
+    "from": "buyer@abc-corp.com",
+    "to": "sales@company.com",
+    "date": "2024-02-22T11:00:00",
+    "body": "안녕하세요,\n\nABC 주식회사 IT기획팀 이민수입니다.\n\n귀사의 SmartWork Pro에 관심이 있어 문의드립니다.\n\n[회사 정보]\n- 회사명: ABC 주식회사\n- 업종: 제조업\n- 직원 수: 약 500명\n\n[도입 검토 배경]\n- 현재 여러 도구 혼용으로 비효율 발생\n- 통합 협업 도구 필요\n- 2024년 상반기 도입 목표\n\n[요청 사항]\n1. 제품 데모 (온라인 가능)\n2. 제조업 레퍼런스 소개\n3. 견적서 (500 User 기준)\n\n가능하시면 다음 주 중 데모 일정을 잡고 싶습니다.\n연락 부탁드립니다.\n\n감사합니다.",
+    "priority": "normal",
+    "category": "inquiry"
+  },
+  {
+    "id": 30,
+    "subject": "긴급 임원 회의 소집",
+    "from": "ceo-secretary@company.com",
+    "to": "executives@company.com",
+    "date": "2024-03-25T08:00:00",
+    "body": "임원 여러분께,\n\nCEO 지시에 따라 긴급 임원 회의를 소집합니다.\n\n[회의 정보]\n- 일시: 2024년 3월 25일 (월) 10:00\n- 장소: 임원 회의실 (17층)\n- 예상 시간: 2시간\n\n[안건]\n1. M&A 관련 긴급 안건 (기밀)\n2. 대응 전략 논의\n\n[참석 필수]\n- CEO, CFO, CTO, COO\n- 법무팀장, 전략기획팀장\n\n기존 일정 조율이 필요하시면 비서실로 연락 바랍니다.\n\n비서실 드림",
+    "priority": "urgent",
+    "category": "meeting"
+  },
+  {
+    "id": 31,
+    "subject": "정기 팀 회의 안내 - 3월 첫째주",
+    "from": "team-admin@company.com",
+    "to": "dev-team@company.com",
+    "date": "2024-03-03T09:00:00",
+    "body": "개발팀 여러분,\n\n3월 첫째주 정기 회의 안내드립니다.\n\n[회의 정보]\n- 일시: 2024년 3월 4일 (월) 10:00 ~ 11:00\n- 장소: 회의실 C-302 (온라인 병행)\n- Zoom: https://zoom.us/j/123456789\n\n[아젠다]\n1. 지난주 스프린트 회고 (15분)\n2. 이번주 스프린트 계획 (20분)\n3. 기술 공유: Redis 클러스터 구성 (15분) - 박민수\n4. Q&A 및 공지사항 (10분)\n\n발표 자료가 있으신 분은 전날까지 공유 부탁드립니다.\n\n감사합니다.",
+    "priority": "low",
+    "category": "meeting"
+  },
+  {
+    "id": 32,
+    "subject": "[주의] 피싱 이메일 주의 안내",
+    "from": "security@company.com",
+    "to": "all@company.com",
+    "date": "2024-02-28T15:00:00",
+    "body": "보안팀 긴급 공지\n\n최근 우리 회사를 사칭한 피싱 이메일이 유포되고 있습니다.\n\n[피싱 메일 특징]\n- 발신자: hr-notice@c0mpany.com (o가 숫자 0)\n- 제목: \"[긴급] 급여 명세서 확인 요청\"\n- 내용: 첨부파일 클릭 유도\n\n[대응 방법]\n1. 의심스러운 메일의 첨부파일 절대 클릭 금지\n2. 발신자 주소 꼼꼼히 확인\n3. 의심 메일은 보안팀으로 전달\n\n[신고 방법]\n- 메일을 security@company.com으로 전달\n- 또는 Slack #security-report 채널에 신고\n\n이미 클릭하신 분은 즉시 보안팀에 연락 바랍니다.\n내선: 1234",
+    "priority": "urgent",
+    "category": "security"
+  },
+  {
+    "id": 33,
+    "subject": "동호회 가입 안내 - 등산 동호회 '정상을 향해'",
+    "from": "hiking-club@company.com",
+    "to": "all@company.com",
+    "date": "2024-03-08T12:00:00",
+    "body": "안녕하세요!\n\n등산 동호회 '정상을 향해'에서 신규 회원을 모집합니다.\n\n[동호회 소개]\n- 설립: 2020년\n- 회원 수: 25명\n- 활동: 월 1~2회 주말 등산\n\n[3월 활동 계획]\n- 3월 16일 (토): 북한산 백운대\n- 3월 30일 (토): 관악산\n\n[가입 조건]\n- 등산에 관심 있는 임직원 누구나\n- 초보자 환영 (천천히 함께 갑니다)\n\n[회비]\n- 월 1만원 (교통비, 간식 등)\n\n가입 문의: hiking-club@company.com\n또는 개발팀 김지훈\n\n함께 건강한 주말 보내요!",
+    "priority": "low",
+    "category": "social"
+  },
+  {
+    "id": 34,
+    "subject": "경조사 안내 - 김철수 과장 결혼",
+    "from": "welfare@company.com",
+    "to": "all@company.com",
+    "date": "2024-03-12T10:00:00",
+    "body": "경조사 안내\n\n개발팀 김철수 과장님의 결혼 소식을 전해드립니다.\n\n[결혼식 정보]\n- 일시: 2024년 3월 23일 (토) 12:00\n- 장소: 그랜드 웨딩홀 3층 로즈홀\n- 주소: 서울시 강남구 삼성동 123-45\n\n[경조금 안내]\n- 부서별로 취합하여 전달 예정\n- 개인 참석 시 화환 대신 축의금 권장\n\n김철수 과장님의 앞날을 진심으로 축하합니다!\n\n복지팀 드림",
+    "priority": "low",
+    "category": "social"
+  },
+  {
+    "id": 35,
+    "subject": "[불만] 서비스 응답 지연 지속 발생",
+    "from": "angry-customer@customer.com",
+    "to": "support@company.com",
+    "date": "2024-02-25T17:30:00",
+    "body": "고객센터 담당자님께,\n\n지난 2주간 서비스 응답 지연이 계속되고 있어 정말 불만입니다.\n\n[문제 상황]\n- 발생 시점: 2월 12일부터 현재까지\n- 증상: 페이지 로딩 10초 이상, 자주 타임아웃\n- 영향: 업무 효율 심각하게 저하\n\n[이미 시도한 것]\n- 브라우저 캐시 삭제\n- 다른 브라우저 시도\n- 네트워크 환경 변경 (사무실, 집, 카페)\n\n이전에도 문의했지만 \"일시적 현상\"이라는 답변만 받았습니다.\n근본적인 해결책을 요청드립니다.\n\n계약 갱신을 앞두고 있는데, 이 문제가 해결되지 않으면\n다른 서비스 검토를 고려해야 할 것 같습니다.\n\n빠른 회신 바랍니다.",
+    "priority": "urgent",
+    "category": "complaint"
+  },
+  {
+    "id": 36,
+    "subject": "결제 오류 관련 불만 - 중복 결제 발생",
+    "from": "customer2@customer.com",
+    "to": "billing@company.com",
+    "date": "2024-03-01T09:00:00",
+    "body": "청구팀 담당자님,\n\n2월 청구 건에서 중복 결제가 발생했습니다.\n\n[문제 내용]\n- 결제일: 2024년 2월 25일\n- 결제 금액: 180만원 x 2회 = 360만원\n- 정상 금액: 180만원\n- 중복 결제액: 180만원\n\n[카드 정보]\n- 카드사: ○○카드\n- 카드번호 끝자리: 1234\n\n즉시 환불 처리 요청드립니다.\n\n이런 일이 처음이 아닙니다.\n지난달에도 비슷한 일이 있었고, 그때도 제가 먼저 발견해서 연락했습니다.\n\n시스템적으로 문제가 있는 것 같은데,\n정확한 원인과 재발 방지 대책을 알려주세요.\n\n오늘 중으로 회신 부탁드립니다.",
+    "priority": "urgent",
+    "category": "complaint"
+  },
+  {
+    "id": 37,
+    "subject": "고객 지원 응대 불만",
+    "from": "frustrated-user@customer.com",
+    "to": "cs-manager@company.com",
+    "date": "2024-03-05T14:30:00",
+    "body": "고객지원팀장님께,\n\n지난주 고객 지원 경험에 대해 불만을 제기합니다.\n\n[상황]\n- 문의일: 2024년 2월 28일\n- 티켓번호: CS-20240228-1234\n- 문의 내용: 계정 권한 설정 오류\n\n[불만 사항]\n1. 초기 응답 시간이 48시간 이상 소요\n2. 담당자가 3번이나 바뀌어서 매번 처음부터 설명\n3. 결국 해결까지 5일 소요 (SLA: 24시간)\n4. 마지막 담당자는 통화 중 불친절한 말투\n\n[기대]\n- 해당 건에 대한 사과\n- 향후 동일 문제 발생 시 빠른 해결 보장\n- 담당자 서비스 교육 요청\n\n계약 갱신 시 이 부분도 고려할 예정입니다.\n담당자 연락 바랍니다.",
+    "priority": "normal",
+    "category": "complaint"
+  },
+  {
+    "id": 38,
+    "subject": "신규 기능 피드백 - AI 검색 기능",
+    "from": "power-user@customer.com",
+    "to": "product-feedback@company.com",
+    "date": "2024-02-20T11:00:00",
+    "body": "제품팀 여러분께,\n\n최근 출시된 AI 검색 기능을 사용해보고 피드백 드립니다.\n\n[좋았던 점]\n1. 자연어로 검색 가능한 점이 매우 편리\n2. 검색 결과 정확도가 높음\n3. 문서 요약 기능이 유용\n\n[개선 희망 사항]\n1. 검색 범위 필터 추가 (날짜, 작성자, 폴더)\n2. 검색 기록 저장 및 즐겨찾기\n3. 검색 결과 내보내기 (Excel, PDF)\n4. 한글 인식률 개선 (가끔 오타에 민감)\n\n[버그 리포트]\n- \"회의록\" 검색 시 \"회의\" 관련 결과만 나오는 경우 있음\n- 띄어쓰기 유무에 따라 결과가 다름\n\n전반적으로 만족스러운 기능입니다.\n지속적인 개선 기대합니다!\n\n감사합니다.",
+    "priority": "normal",
+    "category": "feedback"
+  },
+  {
+    "id": 39,
+    "subject": "UI/UX 개선 제안",
+    "from": "designer-user@customer.com",
+    "to": "ux-team@company.com",
+    "date": "2024-03-08T16:00:00",
+    "body": "UX팀 여러분께,\n\n6개월간 SmartWork Pro를 사용하면서 느낀 UX 개선점을 공유드립니다.\n(저도 디자이너라서 관심이 많습니다)\n\n[개선 제안]\n\n1. 네비게이션\n   - 현재: 모든 메뉴가 한 레벨에 나열\n   - 제안: 카테고리별 그룹핑, 최근 사용 메뉴 상단 고정\n\n2. 대시보드\n   - 현재: 고정된 위젯 배치\n   - 제안: 드래그 앤 드롭으로 커스터마이징\n\n3. 다크 모드\n   - 현재: 지원 안 함\n   - 제안: 시스템 설정 연동 또는 수동 전환\n\n4. 키보드 단축키\n   - 현재: 일부만 지원\n   - 제안: 주요 기능 전체 단축키 지원\n\n5. 로딩 인디케이터\n   - 현재: 단순 스피너\n   - 제안: 스켈레톤 UI 또는 진행률 표시\n\n참고 이미지는 첨부했습니다.\n검토 부탁드립니다!",
+    "priority": "low",
+    "category": "feedback"
+  },
+  {
+    "id": 40,
+    "subject": "[긴급] 고객 데이터 접근 권한 요청",
+    "from": "customer-success@company.com",
+    "to": "data-admin@company.com",
+    "date": "2024-03-15T09:30:00",
+    "body": "데이터 관리팀 담당자님께,\n\n긴급하게 고객 데이터 접근 권한이 필요합니다.\n\n[요청 사유]\n- 고객사(XYZ그룹)에서 긴급 데이터 마이그레이션 요청\n- 오늘 오후 3시까지 작업 완료 필요\n- 계약 해지 방지를 위한 긴급 대응\n\n[필요 권한]\n- 고객사 ID: XYZ-CORP-001\n- 접근 범위: 사용자 데이터, 문서 데이터\n- 기간: 오늘 하루 (2024-03-15)\n\n[승인자]\n- 고객성공팀장 최유진 (사전 구두 승인 완료)\n\n긴급한 상황이라 서면 승인은 사후 처리하겠습니다.\n빠른 처리 부탁드립니다.\n\n감사합니다.",
+    "priority": "urgent",
+    "category": "approval"
+  }
+]

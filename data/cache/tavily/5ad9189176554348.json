@@ -1,0 +1,18 @@
+{
+  "query": "Windows 11 25H2 사내 VPN 클라이언트 호환성",
+  "source": "live",
+  "captured_at": "2026-08-01",
+  "note": "교육용 고정 스냅샷 — 실제 웹 검색 결과가 아니라 수업 재현성을 위해 손으로 만든 샘플입니다.",
+  "results": [
+    {
+      "title": "[교육용 샘플] Windows 11 25H2 VPN 클라이언트 호환성 정리",
+      "url": "https://example.com/it-notes/win11-25h2-vpn",
+      "content": "Windows 11 25H2 업그레이드 후 일부 사내 VPN 클라이언트에서 스플릿 터널링 설정이 초기화되는 사례가 보고되었습니다. 클라이언트를 6.4 이상으로 올리면 해소되며, 그 전에는 수동으로 라우팅 규칙을 다시 넣어야 합니다."
+    },
+    {
+      "title": "[교육용 샘플] 25H2 네트워크 스택 변경점 요약",
+      "url": "https://example.com/it-notes/win11-25h2-network",
+      "content": "25H2 는 네트워크 필터 드라이버 로딩 순서를 바꿨습니다. 구형 TAP 드라이버를 쓰는 클라이언트는 재설치가 필요합니다."
+    }
+  ]
+}

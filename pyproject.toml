@@ -1,0 +1,28 @@
+[project]
+name = "corporate-agent-workflow"
+version = "0.1.0"
+description = "AI Agent 워크플로우 자동화 역량 강화 (LangGraph 기반)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "langchain==1.3.15",
+    "langchain-core==1.5.5",
+    "langgraph==1.2.11",
+    "langgraph-checkpoint==4.2.0",
+    "langchain-openai==1.5.1",
+    "openai==3.1.0",
+    "langchain-chroma==1.1.0",
+    "chromadb==1.5.9",
+    "langchain-text-splitters>=1.0",
+    "rank-bm25>=0.2",
+    "langchain-tavily==0.2.18",
+    "langfuse>=4.15,<5",
+    "grandalf>=0.8",
+    "pydantic>=2.11",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+build = ["nbformat>=5.10", "nbclient>=0.10", "ipykernel>=6.29"]
+
+[tool.uv]
+package = false

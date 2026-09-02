@@ -1,0 +1,12 @@
+{
+  "generated_by": "notebooks/part2/P2_06_Observability_Eval_Ops.ipynb (D22)",
+  "policy": "RetryPolicy(max_attempts=3)",
+  "handle_tool_errors_true": {
+    "tool_executions": 1
+  },
+  "handle_tool_errors_false": {
+    "tool_executions": 3
+  },
+  "note": "handle_tool_errors=True 면 오류가 예외가 아니라 텍스트로 오므로 노드가 성공한다. 성공한 노드는 재시도되지 않는다.",
+  "second_trap": "RetryPolicy 기본 판정은 ValueError·TypeError·RuntimeError·OSError 등을 재시도 제외로 둔다. 일시적 장애를 RuntimeError 로 던지면 재시도되지 않는다."
+}

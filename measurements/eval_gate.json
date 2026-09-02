@@ -1,0 +1,54 @@
+{
+  "generated_by": "scripts/eval.py gate",
+  "baseline": "eval_snapshot_baseline.json",
+  "candidate": "eval_snapshot_candidate.json",
+  "exit_code": 1,
+  "verdict": "🔴 빨간불 — 막습니다",
+  "lines": [
+    "① 절대 하한",
+    "   ✓ route: 0.800 (하한 0.65)",
+    "   ✓ facts: 1.000 (하한 0.5)",
+    "   ✓ refusal: 1.000 (하한 1.0)",
+    "② 평균 변화 (참고)",
+    "   - route: 0.700 → 0.800 (+0.100)",
+    "   - facts: 1.000 → 1.000 (+0.000)",
+    "   - refusal: 1.000 → 1.000 (+0.000)",
+    "③ 문항별 회귀",
+    "   ✗ route-008 · route: 통과 → 실패",
+    "   ✗ route-026 · route: 통과 → 실패"
+  ],
+  "summary_baseline": {
+    "route": {
+      "measured": 20,
+      "passed": 14,
+      "score": 0.7
+    },
+    "facts": {
+      "measured": 6,
+      "passed": 6,
+      "score": 1.0
+    },
+    "refusal": {
+      "measured": 4,
+      "passed": 4,
+      "score": 1.0
+    }
+  },
+  "summary_candidate": {
+    "route": {
+      "measured": 20,
+      "passed": 16,
+      "score": 0.8
+    },
+    "facts": {
+      "measured": 6,
+      "passed": 6,
+      "score": 1.0
+    },
+    "refusal": {
+      "measured": 4,
+      "passed": 4,
+      "score": 1.0
+    }
+  }
+}
